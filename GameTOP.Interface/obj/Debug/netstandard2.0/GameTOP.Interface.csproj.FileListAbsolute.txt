@@ -1,0 +1,9 @@
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/bin/Debug/netstandard2.0/GameTOP.Interface.deps.json
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/bin/Debug/netstandard2.0/GameTOP.Interface.dll
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/bin/Debug/netstandard2.0/GameTOP.Interface.pdb
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/obj/Debug/netstandard2.0/GameTOP.Interface.csprojAssemblyReference.cache
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/obj/Debug/netstandard2.0/GameTOP.Interface.csproj.CoreCompileInputs.cache
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/obj/Debug/netstandard2.0/GameTOP.Interface.AssemblyInfoInputs.cache
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/obj/Debug/netstandard2.0/GameTOP.Interface.AssemblyInfo.cs
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/obj/Debug/netstandard2.0/GameTOP.Interface.dll
+/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/obj/Debug/netstandard2.0/GameTOP.Interface.pdb

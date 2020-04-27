@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/eduardo/Documentos/CONSOLECORE/GameTop/GameTop.csproj": {}
+  },
+  "projects": {
+    "/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/GameTOP.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/GameTOP.Interface.csproj",
+        "projectName": "GameTOP.Interface",
+        "projectPath": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/GameTOP.Interface.csproj",
+        "packagesPath": "/home/eduardo/.nuget/packages/",
+        "outputPath": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eduardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/eduardo/Documentos/CONSOLECORE/GameTOP.lib/GameTOP.lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.lib/GameTOP.lib.csproj",
+        "projectName": "GameTOP.lib",
+        "projectPath": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.lib/GameTOP.lib.csproj",
+        "packagesPath": "/home/eduardo/.nuget/packages/",
+        "outputPath": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.lib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eduardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/GameTOP.Interface.csproj": {
+                "projectPath": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/GameTOP.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/eduardo/Documentos/CONSOLECORE/GameTop/GameTop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eduardo/Documentos/CONSOLECORE/GameTop/GameTop.csproj",
+        "projectName": "GameTop",
+        "projectPath": "/home/eduardo/Documentos/CONSOLECORE/GameTop/GameTop.csproj",
+        "packagesPath": "/home/eduardo/.nuget/packages/",
+        "outputPath": "/home/eduardo/Documentos/CONSOLECORE/GameTop/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eduardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/GameTOP.Interface.csproj": {
+                "projectPath": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.Interface/GameTOP.Interface.csproj"
+              },
+              "/home/eduardo/Documentos/CONSOLECORE/GameTOP.lib/GameTOP.lib.csproj": {
+                "projectPath": "/home/eduardo/Documentos/CONSOLECORE/GameTOP.lib/GameTOP.lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
